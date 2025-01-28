@@ -2,37 +2,39 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "For measuring high Impulse Currents, the best type of shunt is:",
       "answers": {
         "a": "answer1",
         "b": "answer2",
         "c": "answer3",
         "d": "answer4"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+     
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Impulse current generator output wave form is:",
       "answers": {
         "a": "answer1",
         "b": "answer2",
         "c": "answer3",
         "d": "answer4"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "To minimize the inductance in impulse current generator circuits:",
+      "answers": {
+        "a": "Capacitors are connected in parallel",
+        "b": "Capacitors are connected in series",
+        "c": "Discharge path is made into a rectangular path",
+        "d": "Air core inductors are used in series"
       },
-      "correctAnswer": "c",
+      
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
