@@ -4,10 +4,10 @@
     {
       "question": "1. For measuring high Impulse Currents, the best type of shunt is:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "squirrel cage",
+        "b": "Bifilar strip",
+        "c": "Disc",
+        "d": "Coaxial tubular"
       },
      
       "correctAnswer": "d",
@@ -16,10 +16,10 @@
     {
       "question": "2. Impulse current generator output wave form is:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Critically damped wave",
+        "b": "Under damped oscillatory wave",
+        "c": "damped oscillatory wave",
+        "d": "Overdamped wave"
       },
       
       "correctAnswer": "b",
