@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "For measuring high Impulse Currents, the best type of shunt is:",
+      "question": "1. For measuring high Impulse Currents, the best type of shunt is:",
       "answers": {
         "a": "answer1",
         "b": "answer2",
@@ -14,7 +14,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Impulse current generator output wave form is:",
+      "question": "2. Impulse current generator output wave form is:",
       "answers": {
         "a": "answer1",
         "b": "answer2",
@@ -26,7 +26,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "To minimize the inductance in impulse current generator circuits:",
+      "question": "3. To minimize the inductance in impulse current generator circuits:",
       "answers": {
         "a": "Capacitors are connected in parallel",
         "b": "Capacitors are connected in series",
