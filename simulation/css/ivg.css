@@ -1,0 +1,756 @@
+/**
+ * 
+ *  Document     : ivg.css
+ *  Created on   : Jan 26, 2017, 4:35:25 AM
+ *  Author       : Subir Sekhar
+ *  Co-Author    : Pabitra K Jana
+ *  Organization : IIT Khatagpur
+ *  
+ */
+@charset "utf-8";
+#whole_body
+{
+    position:relative;
+    margin-left:0px; margin-right:auto;
+    top:0px; 
+    width:100%;
+    height:99%;
+    background-color:#E0FFFF;
+}
+#title
+{
+
+    padding-top: 0px;
+    text-align:center;
+    height:5%;
+    width:100%;
+    position:absolute; 
+    margin-left:auto; 
+    margin-right:auto;     
+    color: #000000;
+    top: 1.5%;
+    font-size: 200%;
+    font-size: 2.5vw
+}
+#csg
+{
+    width: 100%;
+    height: 92%;
+    top:8%;
+    background-color: #E0FFFF;
+    position:absolute; 
+    margin-left:auto; 
+    margin-right:auto;    
+}
+
+#controller
+{
+    position:absolute;
+    margin-left:auto;
+    margin-right:auto; 
+    top:0.75%;
+    left:0.3%;
+    width:20%;
+    height:94%;
+    border:solid royalblue 0.3em;
+    text-align:center;
+    background-color: #E0FFFF;
+
+}
+#controller_title
+{
+    position:absolute; 
+    margin-left:auto; 
+    margin-right:auto;  
+    width:100%; 
+    height:4.5%;
+    font-size:100%; 
+    font-size: 1.5vw;
+    text-align:left;  
+    background-color:#4169E1; 
+    text-align: center;
+
+}
+#main-wrapper
+{
+    border-radius: 5px;    
+    background-color: lightgrey;
+    /*    left:1px;*/
+    width:100%; 
+    height:100%;
+    /*    padding: 0.625%;*/
+    border: 2px solid navy;
+    /*    margin: 1.25%;*/
+}
+/*#main-wrapper{
+    border-radius: 5px;    
+    background-color: lightgrey;
+    width: 75%;
+    height: 90%;
+    padding: 0.625%;
+    border: 2px solid navy;
+    margin: 1.25%;
+    position: absolute;
+    left: 12.5%;
+}*/
+#canvas3d-wrapper{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+#canvas3d-view{
+    background-color: black;
+    height: 100%;   
+
+}
+
+.dropdown-content1 {
+
+    color: black;
+    background-color: #FFFFFF;
+
+    width: 91.8%;
+    height:57.2%;
+    left: 0.1%;
+    padding: 8.8% 4%;
+    z-index: 10;
+    cursor: pointer;
+    position: absolute;
+    display: none;
+    text-align: left;
+    top: 5.1%;
+}
+.dropdown:hover .dropdown-content1 {
+    display: block;
+}
+#model
+{
+    width:100%;
+    height:90%;
+    position:absolute;
+    top:5%;
+
+}
+.parameters1
+{
+    position:absolute; 
+    margin-left:auto; 
+    margin-right:auto;  
+    width:100%; 
+    height:32%;
+    left: 0.25%;
+    background-color:#00CFFF; 
+
+}
+
+.parameters2
+{
+    position:absolute; 
+    margin-left:auto; 
+    margin-right:auto;  
+    width:100%; 
+    height:32%;
+    left: 0.25%;
+    background-color:#00CFFF; 
+
+}
+.parameters3
+{
+    position:absolute; 
+    margin-left:auto; 
+    margin-right:auto;  
+    width:100%; 
+    height:22.5%;
+    left: 0.25%;
+    background-color:#00CFFF; 
+
+}
+.parameters4
+{
+    position:absolute; 
+    margin-left:auto; 
+    margin-right:auto;  
+    width:100%; 
+    height:30%;
+    left: 0.25%;
+    background-color:#00CFFF; 
+
+}
+.parameters5
+{
+    position:absolute; 
+    margin-left:auto; 
+    margin-right:auto;  
+    width:100%; 
+    height:22.5%;
+    left:0.25%;
+    background-color:#00CFFF; 
+
+}
+.parameters_value
+{
+    position:absolute; 
+    margin-left:auto; 
+    margin-right:auto;  
+    width: 99%; 
+    height:20%;   
+    color: black;
+    text-align:left;
+    left: 4%;
+
+}
+
+.ctrl
+{
+    position:absolute; 
+    margin-left:auto; 
+    margin-right:auto; 
+    background-color:#C0FFFF; 
+    width: 100%;
+    font-size: 10px;
+    font-size: 1.0vw;
+    left: 0.7%;
+}
+#ctrl
+{
+    width:100%; 
+    height:12%;
+
+}
+#voltage
+{
+    height:15%;
+    top:1%;
+
+
+}
+#capacitor
+{
+
+    height:15%;
+    top:17%;    
+}
+#resistor{
+
+    height:23%;
+    top:33%; 
+}
+#inductor{
+
+    height:12%;
+    top:73.5%;    
+}
+#time{
+
+    height:23%;
+    top:58%;      
+}
+#bttn
+{
+    position:absolute; 
+    margin-left:auto; 
+    margin-right:auto; 
+    width:96%; 
+    height:20%;
+    top:83.5%;
+    left:3%;
+    background-color:#FFFFCC;; 
+}
+#bttn5
+{
+    position:absolute; 
+    margin-left:auto; 
+    margin-right:auto; 
+    width:20%; 
+    height:20%;
+    top:1%;
+    left:80%;
+    background-color:#FFFFCC;; 
+}
+#bttn2
+{
+    position:absolute; 
+    left:20%;
+    float: left;
+    width: 60%;
+    top:27%;
+}
+#bttn4
+{
+    position:absolute; 
+    left:20%;
+    float: left;
+    width: 60%;
+    top:77%;
+}
+.btn{
+    font-size: 100%;
+    font-size: 0.85vw;
+    width: 100%;
+
+}
+#bttn1
+{
+    position:absolute; 
+    left: 20%;
+    float: left;
+    width: 60%;
+    top:1%;
+
+}
+#bttn3
+{
+    position:absolute; 
+    left: 20%;
+    float: left;
+    width: 60%;
+    top:52%;
+
+}
+.value
+{
+    width: 45%;
+}
+.ip
+{
+    width: 15%;
+    left: 80%
+}
+#V0,#d,#L1{
+
+    font-size: 95%;
+    font-size: 0.9vw;
+    height: 50%; 
+}
+#demo4,#demo2
+{
+    font-size: 95%;
+    font-size: 0.9vw;
+    height: 125%;  
+}
+#Rf,#Rt,#Lf,#Lt,#C1
+{
+    font-size: 95%;
+    font-size: 0.9vw;
+    height: 25%; 
+    width: 45%;
+}
+#Cg
+{
+
+    font-size: 95%;
+    font-size: 0.9vw;
+    height: 25%;    
+}
+
+#demo5,#demo6
+{
+    font-size: 95%;
+    font-size: 0.9vw;
+    height: 40%;      
+}
+#demo,#demo1,#demo8,#demo3{
+   font-size: 95%;
+    font-size: 0.9vw;
+    height: 75%;     
+}
+
+
+#simulator
+{
+    position:absolute; 
+    margin-left:auto; 
+    margin-right:auto; 
+    width:78.2%; 
+    height:100%;
+    top:0.9%;   
+    left:21.5%;
+    background-color:#EOFFFF;
+}
+html {
+    height: 100%;
+    overflow: visible;
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: block !important;
+    height: 100%;
+
+    background-color: #E0FFFF;
+    color: white;
+    text-decoration: none;
+    word-spacing: normal;
+    text-align: left;
+    letter-spacing: 0;
+
+
+    -webkit-font-smoothing: antialiased;
+
+    overflow: visible;
+}
+#graph
+{
+    position:absolute; 
+    margin-left:auto; 
+    margin-right:auto; 
+    width:100%; 
+    height:100%;
+    top:0%;   
+    left:0%;
+    background-color: #E0FFFF;
+    display: none;
+
+}
+#visualization_wrap {
+    border:1px solid gray;
+    position: relative;
+    /*    padding-bottom: 85%;*/
+    height: 90%;
+    overflow:hidden;
+    top:5%;
+    width: 99.8%;
+}
+#visualization {
+    position: absolute;
+    width:100%;
+    height:100%;
+}
+/*#visualization
+{
+    width: 100%;
+    height: 95%;
+    top: 20px;
+    position:absolute; 
+    margin-left:auto; 
+    margin-right:auto; 
+    border:solid gainsboro 0.1em;
+    text-align:center;
+    background-color: #FFFFFF;  
+}*/
+
+
+#model_title
+{
+    position:absolute; 
+    margin-left:auto; 
+    margin-right:auto; 
+    width:33.2%; 
+    height:4.5%;
+    font-size:100%; 
+    font-size: 1.5vw;
+    text-align:center;  
+    background-color:#4169E1;
+    float: left;
+
+} 
+#eqv_ckt
+{
+    position:absolute; 
+    margin-left:auto; 
+    margin-right:auto; 
+    width:33.33%; 
+    height:4.5%;
+    font-size:100%; 
+    font-size: 1.5vw;
+    text-align:center;  
+    background-color:#4169E1;
+    float:right;
+    left:66.67%;
+}
+#CHARACTERISTICS
+{
+    position:absolute; 
+    margin-left:auto; 
+    margin-right:auto;  
+    width:100%; 
+    height:5%;
+    font-size:15px;
+    font-size: 1.5vw;
+    text-align:center;  
+    background-color:#4169E1;    
+}
+#ckt
+{
+    position:absolute;
+    margin-left:auto;
+    margin-right:auto; 
+    top:55%;
+    left:74%;
+    width:25.3%;
+    height:41%;
+    border:solid gainsboro 0.1em;
+    text-align:center;
+    background-color: #FFFFFF;       
+}
+#ckt_title
+{
+    position:absolute; 
+    margin-left:auto; 
+    margin-right:auto; 
+    width:100%; 
+    height:10%;
+    font-size:15px;
+    font-size: 1.1vw;
+    text-align:left;  
+    background-color:#4169E1;
+    float: left;
+
+}
+#ckt_diagram
+{
+    position:relative;
+    margin-left:auto;
+    margin-right:auto; 
+    top:15%;
+    width:98%;
+    height:80%;
+    text-align:center;
+    background-color: #E0FFFF;          
+}
+#ckt_parameters
+{
+    position:absolute;
+    margin-left:auto;
+    margin-right:auto; 
+    top:20%;
+    left:50%;
+    width:90%;
+    height:95%;
+    padding-left: 3%;
+    text-align:center;
+    background-color: #FFFFFF; 
+    font-size: 10px;
+    font-size: 1.2vw;
+    color:#000000;
+    text-align: left;
+}
+
+.circle { 
+    width: 15px;
+    width: 1.1vw;
+    height: 15px;
+    height: 1.1vw;
+    background: blue; 
+    -moz-border-radius: 50px;
+    -moz-border-radius:1vw;
+    -webkit-border-radius: 50px; 
+    -webkit-border-radius:1vw;
+    border-radius: 50px;
+    border-radius: 1vw;
+    position: absolute;
+    /*   float: next;*/
+    font-size: 15px;
+    font-size: 1vw;
+
+    left: 95%;
+
+    border: none;
+    cursor: pointer;
+}
+.dropdown-content {
+
+    color: black;
+    background-color: #FFFFFF;
+
+    width: 85%;
+
+    padding: 9% 4%;
+    z-index: 10;
+    cursor: pointer;
+    position: absolute;
+    display: none;
+    text-align: left;
+    top: 0px;
+}
+ol {
+    display: block;
+    list-style-type: decimal;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-padding-start: 10%;
+    position: absolute;
+
+    font-size: 8px;
+    font-size: 1vw;
+}
+#lisence
+{
+    font-size:15px;
+    font-size: 1.0VW;
+    padding-top: 0.5%;
+    text-align:center;
+    height:4%;
+    width:100%;
+    position:absolute; 
+    margin-left:auto; 
+    margin-right:auto;        
+    color: #000000;
+    left:0px;
+    top: 96%;  
+}
+#bdy{
+    width:100%;
+    height:100%;
+}
+img {
+    width: 100%;
+    height: 90%;
+    left:0%;
+}
+
+#meter{
+    width:40%;
+    height: 5%;
+    top: 1%;
+    left: 1%;
+    background-color: transparent;
+    position:absolute;
+}
+
+#instruction
+{
+    position:absolute; 
+    margin-left:auto; 
+    margin-right:auto; 
+    width:33.2%; 
+    height:4.5%;
+    font-size:100%; 
+    font-size: 1.5vw;
+    text-align:center;  
+    background-color:#4169E1;
+    float:right;
+    left:33.33%;
+}
+#model_title
+{
+    position:absolute; 
+    margin-left:auto; 
+    margin-right:auto; 
+    width:33.2%; 
+    height:4.5%;
+    font-size:100%; 
+    font-size: 1.5vw;
+    text-align:center;  
+    background-color:#4169E1;
+    float: left;
+
+}
+.dropdown-content1 {
+
+    color: black;
+    background-color: #FFFFFF;
+
+    width: 92%;
+    height:58%;
+    left: 0.1%;
+    padding: 8.8% 4%;
+    z-index: 10;
+    cursor: pointer;
+    position: absolute;
+    display: none;
+    text-align: left;
+    top: 5.1%;
+}
+.dropdown:hover .dropdown-content1 {
+    display: block;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width:99%;
+    top: 6%;
+    position: absolute;
+    height: 7.5%
+}
+
+
+/* Style the links inside the tab */
+div.tab a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 3% 3%;
+    text-decoration: none;
+    transition: 0.8s;
+    font-size: 15px;
+    font-size: 1.5vw;
+    
+    
+}
+.tablinks{
+    width:27%;
+}
+
+/* Change background color of links on hover */
+div.tab a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab a:focus, .active {
+    background-color: #ccc;
+}
+#whole_controller,#whole_controller1,#whole_controller2{
+    height: 100%;
+    width: 99%;
+}
+.whole_controller
+{
+    width: 98%;
+    height: 55%;
+    
+    background-color: #F0FFFF;
+    position:absolute; 
+    top:35%;
+    margin-left:auto; 
+    margin-right:auto; 
+    
+}
+
+#whole_controller
+{
+    width: 98%;
+    height: 80%;
+    top:15%;
+    background-color: #F0FFFF;
+    position:absolute; 
+    margin-left:auto; 
+    margin-right:auto;  
+}
+#dwnldGraph{
+    position:absolute; 
+    left:91%;
+    top:0%;
+    margin-left:auto; 
+    margin-right:auto;     
+    color: black;
+    text-align:left;
+    
+}
+#dwnldGraph a{
+    text-decoration: none;
+    display:block;
+    border-style:solid;
+    border-color:#666 #666 #666 #666;
+    border-width:1px 1px 1px 1px;
+    /*	width:9em;
+            height:2em;*/
+    background:#eee;
+    color:#000;
+    line-height:2;
+    text-align:center;
+    text-decoration:none;
+    cursor: pointer;
+    /*font-weight:900;*/
+}
+.dwnldGraph:hover{
+    /*	border-color: #666 #aaa #bbb #888;
+            border-width:4px 3px 3px 4px;*/
+    color:#000;
+}

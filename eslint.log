@@ -1,0 +1,1079 @@
+
+/home/runner/work/exp-parametric-impulse-waveform-iitkgp/exp-parametric-impulse-waveform-iitkgp/experiment/simulation/js/axis.js
+  10:10  warning  'buildAxes' is defined but never used  no-unused-vars
+  11:20  warning  'THREE' is not defined                 no-undef
+  13:28  warning  'THREE' is not defined                 no-undef
+  13:56  warning  'THREE' is not defined                 no-undef
+  14:28  warning  'THREE' is not defined                 no-undef
+  14:56  warning  'THREE' is not defined                 no-undef
+  15:28  warning  'THREE' is not defined                 no-undef
+  15:56  warning  'THREE' is not defined                 no-undef
+  16:28  warning  'THREE' is not defined                 no-undef
+  16:56  warning  'THREE' is not defined                 no-undef
+  17:28  warning  'THREE' is not defined                 no-undef
+  17:56  warning  'THREE' is not defined                 no-undef
+  18:28  warning  'THREE' is not defined                 no-undef
+  18:56  warning  'THREE' is not defined                 no-undef
+  23:20  warning  'THREE' is not defined                 no-undef
+  26:19  warning  'THREE' is not defined                 no-undef
+  28:19  warning  'THREE' is not defined                 no-undef
+  35:20  warning  'THREE' is not defined                 no-undef
+  35:42  warning  'THREE' is not defined                 no-undef
+
+/home/runner/work/exp-parametric-impulse-waveform-iitkgp/exp-parametric-impulse-waveform-iitkgp/experiment/simulation/js/controller.js
+   13:5   warning  'CUBEScene' is not defined                     no-undef
+   14:5   warning  'animate' is not defined                       no-undef
+   17:10  warning  'onWindowResize' is defined but never used     no-unused-vars
+   29:10  warning  'trigger_generator' is defined but never used  no-unused-vars
+   34:9   warning  'CUBEScene' is not defined                     no-undef
+   35:9   warning  'CUBEScene' is not defined                     no-undef
+   36:9   warning  'render' is not defined                        no-undef
+   39:9   warning  'CUBEScene' is not defined                     no-undef
+   40:9   warning  'CUBEScene' is not defined                     no-undef
+   41:9   warning  'render' is not defined                        no-undef
+   45:9   warning  'CUBEScene' is not defined                     no-undef
+   46:9   warning  'CUBEScene' is not defined                     no-undef
+   47:9   warning  'render' is not defined                        no-undef
+   51:9   warning  'CUBEScene' is not defined                     no-undef
+   52:9   warning  'CUBEScene' is not defined                     no-undef
+   53:9   warning  'render' is not defined                        no-undef
+   57:9   warning  'CUBEScene' is not defined                     no-undef
+   58:9   warning  'CUBEScene' is not defined                     no-undef
+   59:9   warning  'render' is not defined                        no-undef
+   63:9   warning  'CUBEScene' is not defined                     no-undef
+   64:9   warning  'CUBEScene' is not defined                     no-undef
+   65:9   warning  'render' is not defined                        no-undef
+   69:9   warning  'CUBEScene' is not defined                     no-undef
+   70:9   warning  'CUBEScene' is not defined                     no-undef
+   71:9   warning  'render' is not defined                        no-undef
+   78:9   warning  'CUBEScene' is not defined                     no-undef
+   79:9   warning  'CUBEScene' is not defined                     no-undef
+   80:9   warning  'CUBEScene' is not defined                     no-undef
+   82:9   warning  'render' is not defined                        no-undef
+   88:9   warning  'CUBEScene' is not defined                     no-undef
+   89:9   warning  'CUBEScene' is not defined                     no-undef
+   90:9   warning  'CUBEScene' is not defined                     no-undef
+   91:9   warning  'CUBEScene' is not defined                     no-undef
+   92:9   warning  'CUBEScene' is not defined                     no-undef
+   93:9   warning  'CUBEScene' is not defined                     no-undef
+   94:9   warning  'CUBEScene' is not defined                     no-undef
+   95:9   warning  'CUBEScene' is not defined                     no-undef
+   96:9   warning  'CUBEScene' is not defined                     no-undef
+   97:9   warning  'CUBEScene' is not defined                     no-undef
+   98:9   warning  'CUBEScene' is not defined                     no-undef
+   99:9   warning  'CUBEScene' is not defined                     no-undef
+  100:9   warning  'CUBEScene' is not defined                     no-undef
+  101:9   warning  'CUBEScene' is not defined                     no-undef
+  102:9   warning  'CUBEScene' is not defined                     no-undef
+  103:9   warning  'CUBEScene' is not defined                     no-undef
+  104:9   warning  'CUBEScene' is not defined                     no-undef
+  105:9   warning  'CUBEScene' is not defined                     no-undef
+  106:9   warning  'CUBEScene' is not defined                     no-undef
+  107:9   warning  'CUBEScene' is not defined                     no-undef
+  108:9   warning  'CUBEScene' is not defined                     no-undef
+  109:9   warning  'CUBEScene' is not defined                     no-undef
+  110:9   warning  'CUBEScene' is not defined                     no-undef
+  111:9   warning  'CUBEScene' is not defined                     no-undef
+  112:9   warning  'CUBEScene' is not defined                     no-undef
+  113:9   warning  'CUBEScene' is not defined                     no-undef
+  114:9   warning  'render' is not defined                        no-undef
+  145:5   warning  'graphGenerator' is not defined                no-undef
+  147:30  warning  'graphURI' is not defined                      no-undef
+  151:10  warning  'ground_switch' is defined but never used      no-unused-vars
+  154:5   warning  'CUBEScene' is not defined                     no-undef
+  155:5   warning  'CUBEScene' is not defined                     no-undef
+  156:5   warning  'CUBEScene' is not defined                     no-undef
+  157:5   warning  'CUBEScene' is not defined                     no-undef
+  158:5   warning  'CUBEScene' is not defined                     no-undef
+  159:5   warning  'CUBEScene' is not defined                     no-undef
+  160:5   warning  'CUBEScene' is not defined                     no-undef
+  161:5   warning  'CUBEScene' is not defined                     no-undef
+  162:5   warning  'CUBEScene' is not defined                     no-undef
+  163:5   warning  'render' is not defined                        no-undef
+  176:10  warning  'charge_capacitor' is defined but never used   no-unused-vars
+  178:9   warning  'CUBEScene' is not defined                     no-undef
+  180:9   warning  'CUBEScene' is not defined                     no-undef
+  181:9   warning  'CUBEScene' is not defined                     no-undef
+  182:9   warning  'CUBEScene' is not defined                     no-undef
+  183:9   warning  'CUBEScene' is not defined                     no-undef
+  184:9   warning  'CUBEScene' is not defined                     no-undef
+  185:9   warning  'CUBEScene' is not defined                     no-undef
+  186:9   warning  'CUBEScene' is not defined                     no-undef
+  187:9   warning  'CUBEScene' is not defined                     no-undef
+  188:9   warning  'CUBEScene' is not defined                     no-undef
+  195:9   warning  'CUBEScene' is not defined                     no-undef
+  196:9   warning  'CUBEScene' is not defined                     no-undef
+  197:9   warning  'CUBEScene' is not defined                     no-undef
+  198:9   warning  'CUBEScene' is not defined                     no-undef
+  199:9   warning  'CUBEScene' is not defined                     no-undef
+  202:9   warning  'render' is not defined                        no-undef
+  242:10  warning  'aaa' is defined but never used                no-unused-vars
+  245:10  warning  'aaa1' is defined but never used               no-unused-vars
+  248:10  warning  'aaa2' is defined but never used               no-unused-vars
+  251:10  warning  'aaa3' is defined but never used               no-unused-vars
+  254:10  warning  'aaa4' is defined but never used               no-unused-vars
+  257:10  warning  'aaa8' is defined but never used               no-unused-vars
+  351:9   warning  'index' is not defined                         no-undef
+  354:16  warning  'index' is not defined                         no-undef
+  357:16  warning  'index' is not defined                         no-undef
+  369:10  warning  'restart' is defined but never used            no-unused-vars
+  380:10  warning  'toggleButton' is defined but never used       no-unused-vars
+  385:14  warning  'index' is not defined                         no-undef
+
+/home/runner/work/exp-parametric-impulse-waveform-iitkgp/exp-parametric-impulse-waveform-iitkgp/experiment/simulation/js/ivg.js
+   51:5   warning  't' is assigned a value but never used            no-unused-vars
+   52:5   warning  'V' is assigned a value but never used            no-unused-vars
+   53:1   warning  'google' is not defined                           no-undef
+   54:1   warning  'google' is not defined                           no-undef
+   55:1   warning  '$' is not defined                                no-undef
+   72:21  warning  'google' is not defined                           no-undef
+  109:17  warning  'google' is not defined                           no-undef
+  144:14  warning  'i' is already defined                            no-redeclare
+  149:21  warning  'google' is not defined                           no-undef
+  151:9   warning  'titleGraph1' is already defined                  no-redeclare
+  153:9   warning  'titleGraph3' is assigned a value but never used  no-unused-vars
+  154:9   warning  'titleGraph4' is assigned a value but never used  no-unused-vars
+  155:9   warning  'titleGraph5' is assigned a value but never used  no-unused-vars
+  191:5   warning  'google' is not defined                           no-undef
+  193:9   warning  'graphURI' is not defined                         no-undef
+  203:10  warning  'changeThings' is defined but never used          no-unused-vars
+
+/home/runner/work/exp-parametric-impulse-waveform-iitkgp/exp-parametric-impulse-waveform-iitkgp/experiment/simulation/js/jquery-3.1.1.js
+     18:44  warning  'module' is not defined                                                    no-undef
+     27:3   warning  'module' is not defined                                                    no-undef
+     84:11  warning  'Symbol' is already defined as a built-in global variable                  no-redeclare
+    699:15  warning  Unexpected control character(s) in regular expression: \x1f, \x1f          no-control-regex
+    754:39  warning  Empty block statement                                                      no-empty
+    878:27  warning  Empty block statement                                                      no-empty
+   1546:15  warning  Empty block statement                                                      no-empty
+   1945:28  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   2846:31  warning  Unnecessary escape character: \/                                           no-useless-escape
+   2850:24  warning  Unnecessary escape character: \[                                           no-useless-escape
+   2850:26  warning  Unnecessary escape character: \.                                           no-useless-escape
+   3157:55  warning  Empty block statement                                                      no-empty
+   4230:18  warning  Empty block statement                                                      no-empty
+   4690:28  warning  Unnecessary escape character: \/                                           no-useless-escape
+   4897:18  warning  Empty block statement                                                      no-empty
+   5614:75  warning  Unnecessary escape character: \/                                           no-useless-escape
+   6008:19  warning  Empty block statement                                                      no-empty
+   8997:22  warning  'urlAnchor.href' is assigned to itself                                     no-self-assign
+   9398:16  warning  Empty block statement                                                      no-empty
+  10179:38  warning  'define' is not defined                                                    no-undef
+  10180:2   warning  'define' is not defined                                                    no-undef
+
+/home/runner/work/exp-parametric-impulse-waveform-iitkgp/exp-parametric-impulse-waveform-iitkgp/experiment/simulation/js/jquery.js
+    14:20  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+   877:20  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  1036:39  warning  Empty block statement                                                      no-empty
+  1137:23  warning  Empty block statement                                                      no-empty
+  1753:14  warning  Empty block statement                                                      no-empty
+  2104:28  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  3664:17  warning  Empty block statement                                                      no-empty
+  4332:18  warning  Empty block statement                                                      no-empty
+  5145:23  warning  Unnecessary escape character: \[                                           no-useless-escape
+  5145:25  warning  Unnecessary escape character: \.                                           no-useless-escape
+  5285:51  warning  Empty block statement                                                      no-empty
+  5581:18  warning  Empty block statement                                                      no-empty
+  6780:32  warning  Unnecessary escape character: \/                                           no-useless-escape
+  7760:15  warning  Empty block statement                                                      no-empty
+  8817:36  warning  'module' is not defined                                                    no-undef
+  8817:53  warning  'module' is not defined                                                    no-undef
+  8822:2   warning  'module' is not defined                                                    no-undef
+  8831:39  warning  'define' is not defined                                                    no-undef
+  8832:3   warning  'define' is not defined                                                    no-undef
+
+/home/runner/work/exp-parametric-impulse-waveform-iitkgp/exp-parametric-impulse-waveform-iitkgp/experiment/simulation/js/loader.js
+    9:400  warning  Expected a conditional expression and instead saw an assignment                  no-cond-assign
+   10:193  warning  Expected a conditional expression and instead saw an assignment                  no-cond-assign
+   10:231  warning  Expected a conditional expression and instead saw an assignment                  no-cond-assign
+   12:301  warning  'e' is already defined                                                           no-redeclare
+   16:474  warning  Expected a conditional expression and instead saw an assignment                  no-cond-assign
+   21:1    warning  'h' is already defined                                                           no-redeclare
+   21:100  warning  'e' is already defined                                                           no-redeclare
+   22:310  warning  Do not access Object.prototype method 'propertyIsEnumerable' from target object  no-prototype-builtins
+   22:452  warning  Do not access Object.prototype method 'propertyIsEnumerable' from target object  no-prototype-builtins
+   24:241  warning  Empty block statement                                                            no-empty
+   24:392  warning  'c' is already defined                                                           no-redeclare
+   24:469  warning  'c' is defined but never used                                                    no-unused-vars
+   24:471  warning  'd' is defined but never used                                                    no-unused-vars
+   25:19   warning  'd' is defined but never used                                                    no-unused-vars
+   25:293  warning  'a' is defined but never used                                                    no-unused-vars
+   25:295  warning  'c' is defined but never used                                                    no-unused-vars
+   25:297  warning  'd' is defined but never used                                                    no-unused-vars
+   26:17   warning  'c' is defined but never used                                                    no-unused-vars
+   27:233  warning  Empty block statement                                                            no-empty
+   29:338  warning  'g' is defined but never used                                                    no-unused-vars
+   30:19   warning  'd' is defined but never used                                                    no-unused-vars
+   30:437  warning  'g' is already defined                                                           no-redeclare
+   33:78   warning  'c[Z.D]' is assigned to itself                                                   no-self-assign
+   37:19   warning  'c' is defined but never used                                                    no-unused-vars
+   42:485  warning  Unexpected control character(s) in regular expression: \x00                      no-control-regex
+   43:15   warning  Unexpected control character(s) in regular expression: \x00                      no-control-regex
+   43:30   warning  Unexpected control character(s) in regular expression: \x00                      no-control-regex
+   45:325  warning  Spaces are hard to count. Use {2}                                                no-regex-spaces
+   49:377  warning  Unnecessary escape character: \[                                                 no-useless-escape
+   49:388  warning  Unnecessary escape character: \^                                                 no-useless-escape
+   49:419  warning  Unexpected control character(s) in regular expression: \x08                      no-control-regex
+   50:309  warning  'a' is defined but never used                                                    no-unused-vars
+   52:430  warning  Unnecessary escape character: \-                                                 no-useless-escape
+   55:590  warning  'f' is already defined                                                           no-redeclare
+   55:728  warning  'd' is defined but never used                                                    no-unused-vars
+   56:19   warning  'c' is defined but never used                                                    no-unused-vars
+   56:133  warning  'd' is defined but never used                                                    no-unused-vars
+   56:277  warning  'd' is defined but never used                                                    no-unused-vars
+   57:21   warning  'd' is defined but never used                                                    no-unused-vars
+   57:167  warning  'd' is defined but never used                                                    no-unused-vars
+   57:310  warning  'd' is defined but never used                                                    no-unused-vars
+   58:21   warning  'd' is defined but never used                                                    no-unused-vars
+   58:166  warning  'd' is defined but never used                                                    no-unused-vars
+   58:336  warning  'e' is defined but never used                                                    no-unused-vars
+   68:120  warning  'a' is defined but never used                                                    no-unused-vars
+   68:205  warning  'a' is defined but never used                                                    no-unused-vars
+   69:23   warning  'c' is defined but never used                                                    no-unused-vars
+   69:209  warning  'c' is defined but never used                                                    no-unused-vars
+   69:211  warning  'd' is defined but never used                                                    no-unused-vars
+   69:213  warning  'e' is defined but never used                                                    no-unused-vars
+   74:251  warning  'a' is defined but never used                                                    no-unused-vars
+   76:17   warning  'a' is defined but never used                                                    no-unused-vars
+  128:444  warning  Expected a conditional expression and instead saw an assignment                  no-cond-assign
+  129:32   warning  Expected a conditional expression and instead saw an assignment                  no-cond-assign
+  129:237  warning  Expected a conditional expression and instead saw an assignment                  no-cond-assign
+  131:470  warning  'a' is already defined                                                           no-redeclare
+  145:221  warning  Empty block statement                                                            no-empty
+  148:126  warning  'e' is already defined                                                           no-redeclare
+
+/home/runner/work/exp-parametric-impulse-waveform-iitkgp/exp-parametric-impulse-waveform-iitkgp/experiment/simulation/js/quiz/quiz-data.js
+  12:5  warning  'quizJSON' is assigned a value but never used  no-unused-vars
+
+/home/runner/work/exp-parametric-impulse-waveform-iitkgp/exp-parametric-impulse-waveform-iitkgp/experiment/simulation/js/scene.js
+    1:11  warning  'flag' is defined but never used       no-unused-vars
+   52:26  warning  'THREE' is not defined                 no-undef
+   62:29  warning  'THREE' is not defined                 no-undef
+   71:27  warning  'THREE' is not defined                 no-undef
+   79:28  warning  'THREE' is not defined                 no-undef
+   83:29  warning  'THREE' is not defined                 no-undef
+   98:29  warning  'THREE' is not defined                 no-undef
+  128:26  warning  'THREE' is not defined                 no-undef
+  130:26  warning  'THREE' is not defined                 no-undef
+  130:41  warning  'THREE' is not defined                 no-undef
+  130:77  warning  'THREE' is not defined                 no-undef
+  138:27  warning  'THREE' is not defined                 no-undef
+  138:42  warning  'THREE' is not defined                 no-undef
+  138:77  warning  'THREE' is not defined                 no-undef
+  144:27  warning  'THREE' is not defined                 no-undef
+  144:42  warning  'THREE' is not defined                 no-undef
+  144:77  warning  'THREE' is not defined                 no-undef
+  150:27  warning  'THREE' is not defined                 no-undef
+  150:42  warning  'THREE' is not defined                 no-undef
+  150:77  warning  'THREE' is not defined                 no-undef
+  156:36  warning  'THREE' is not defined                 no-undef
+  157:36  warning  'THREE' is not defined                 no-undef
+  158:29  warning  'THREE' is not defined                 no-undef
+  162:13  warning  'cylindergeometry' is already defined  no-redeclare
+  162:36  warning  'THREE' is not defined                 no-undef
+  163:13  warning  'cylindermaterial' is already defined  no-redeclare
+  163:36  warning  'THREE' is not defined                 no-undef
+  164:29  warning  'THREE' is not defined                 no-undef
+  169:13  warning  'cylindergeometry' is already defined  no-redeclare
+  169:36  warning  'THREE' is not defined                 no-undef
+  170:13  warning  'cylindermaterial' is already defined  no-redeclare
+  170:36  warning  'THREE' is not defined                 no-undef
+  171:30  warning  'THREE' is not defined                 no-undef
+  175:13  warning  'cylindergeometry' is already defined  no-redeclare
+  175:36  warning  'THREE' is not defined                 no-undef
+  176:13  warning  'cylindermaterial' is already defined  no-redeclare
+  176:36  warning  'THREE' is not defined                 no-undef
+  177:31  warning  'THREE' is not defined                 no-undef
+  183:13  warning  'cylindergeometry' is already defined  no-redeclare
+  183:36  warning  'THREE' is not defined                 no-undef
+  184:13  warning  'cylindermaterial' is already defined  no-redeclare
+  184:36  warning  'THREE' is not defined                 no-undef
+  185:31  warning  'THREE' is not defined                 no-undef
+  191:13  warning  'cylindergeometry' is already defined  no-redeclare
+  191:36  warning  'THREE' is not defined                 no-undef
+  192:13  warning  'cylindermaterial' is already defined  no-redeclare
+  192:36  warning  'THREE' is not defined                 no-undef
+  193:30  warning  'THREE' is not defined                 no-undef
+  199:13  warning  'cylindergeometry' is already defined  no-redeclare
+  199:36  warning  'THREE' is not defined                 no-undef
+  200:13  warning  'cylindermaterial' is already defined  no-redeclare
+  200:36  warning  'THREE' is not defined                 no-undef
+  201:31  warning  'THREE' is not defined                 no-undef
+  205:13  warning  'cylindergeometry' is already defined  no-redeclare
+  205:36  warning  'THREE' is not defined                 no-undef
+  206:13  warning  'cylindermaterial' is already defined  no-redeclare
+  206:36  warning  'THREE' is not defined                 no-undef
+  207:31  warning  'THREE' is not defined                 no-undef
+  214:34  warning  'THREE' is not defined                 no-undef
+  215:34  warning  'THREE' is not defined                 no-undef
+  216:28  warning  'THREE' is not defined                 no-undef
+  221:13  warning  'cylindergeometry' is already defined  no-redeclare
+  221:36  warning  'THREE' is not defined                 no-undef
+  222:13  warning  'cylindermaterial' is already defined  no-redeclare
+  222:36  warning  'THREE' is not defined                 no-undef
+  223:31  warning  'THREE' is not defined                 no-undef
+  229:13  warning  'cylindergeometry' is already defined  no-redeclare
+  229:36  warning  'THREE' is not defined                 no-undef
+  230:13  warning  'cylindermaterial' is already defined  no-redeclare
+  230:36  warning  'THREE' is not defined                 no-undef
+  231:29  warning  'THREE' is not defined                 no-undef
+  237:13  warning  'cylindergeometry' is already defined  no-redeclare
+  237:36  warning  'THREE' is not defined                 no-undef
+  238:13  warning  'cylindermaterial' is already defined  no-redeclare
+  238:36  warning  'THREE' is not defined                 no-undef
+  239:30  warning  'THREE' is not defined                 no-undef
+  246:27  warning  'THREE' is not defined                 no-undef
+  248:13  warning  'SphereGeometry' is already defined    no-redeclare
+  248:34  warning  'THREE' is not defined                 no-undef
+  249:13  warning  'Spherematerial' is already defined    no-redeclare
+  249:34  warning  'THREE' is not defined                 no-undef
+  250:30  warning  'THREE' is not defined                 no-undef
+  255:13  warning  'SphereGeometry' is already defined    no-redeclare
+  255:34  warning  'THREE' is not defined                 no-undef
+  256:13  warning  'Spherematerial' is already defined    no-redeclare
+  256:34  warning  'THREE' is not defined                 no-undef
+  257:30  warning  'THREE' is not defined                 no-undef
+  262:13  warning  'SphereGeometry' is already defined    no-redeclare
+  262:34  warning  'THREE' is not defined                 no-undef
+  263:13  warning  'Spherematerial' is already defined    no-redeclare
+  263:34  warning  'THREE' is not defined                 no-undef
+  264:30  warning  'THREE' is not defined                 no-undef
+  269:13  warning  'SphereGeometry' is already defined    no-redeclare
+  269:34  warning  'THREE' is not defined                 no-undef
+  270:13  warning  'Spherematerial' is already defined    no-redeclare
+  270:34  warning  'THREE' is not defined                 no-undef
+  271:30  warning  'THREE' is not defined                 no-undef
+  276:13  warning  'SphereGeometry' is already defined    no-redeclare
+  276:34  warning  'THREE' is not defined                 no-undef
+  277:13  warning  'Spherematerial' is already defined    no-redeclare
+  277:34  warning  'THREE' is not defined                 no-undef
+  278:30  warning  'THREE' is not defined                 no-undef
+  283:13  warning  'SphereGeometry' is already defined    no-redeclare
+  283:34  warning  'THREE' is not defined                 no-undef
+  284:13  warning  'Spherematerial' is already defined    no-redeclare
+  284:34  warning  'THREE' is not defined                 no-undef
+  285:30  warning  'THREE' is not defined                 no-undef
+  320:26  warning  'THREE' is not defined                 no-undef
+  326:26  warning  'THREE' is not defined                 no-undef
+  332:26  warning  'THREE' is not defined                 no-undef
+  338:26  warning  'THREE' is not defined                 no-undef
+  344:26  warning  'THREE' is not defined                 no-undef
+  352:26  warning  'THREE' is not defined                 no-undef
+  359:25  warning  'THREE' is not defined                 no-undef
+  359:40  warning  'THREE' is not defined                 no-undef
+  359:76  warning  'THREE' is not defined                 no-undef
+  369:33  warning  'THREE' is not defined                 no-undef
+  370:33  warning  'THREE' is not defined                 no-undef
+  370:84  warning  'THREE' is not defined                 no-undef
+  371:26  warning  'THREE' is not defined                 no-undef
+  376:13  warning  'torusgeometry' is already defined     no-redeclare
+  376:33  warning  'THREE' is not defined                 no-undef
+  377:13  warning  'torusmaterial' is already defined     no-redeclare
+  377:33  warning  'THREE' is not defined                 no-undef
+  377:84  warning  'THREE' is not defined                 no-undef
+  378:26  warning  'THREE' is not defined                 no-undef
+  382:13  warning  'torusgeometry' is already defined     no-redeclare
+  382:33  warning  'THREE' is not defined                 no-undef
+  383:13  warning  'torusmaterial' is already defined     no-redeclare
+  383:33  warning  'THREE' is not defined                 no-undef
+  383:84  warning  'THREE' is not defined                 no-undef
+  384:26  warning  'THREE' is not defined                 no-undef
+  388:27  warning  'THREE' is not defined                 no-undef
+  389:13  warning  'cylindergeometry' is already defined  no-redeclare
+  389:36  warning  'THREE' is not defined                 no-undef
+  390:13  warning  'cylindermaterial' is already defined  no-redeclare
+  390:36  warning  'THREE' is not defined                 no-undef
+  391:29  warning  'THREE' is not defined                 no-undef
+  395:13  warning  'cylindergeometry' is already defined  no-redeclare
+  395:36  warning  'THREE' is not defined                 no-undef
+  396:13  warning  'cylindermaterial' is already defined  no-redeclare
+  396:36  warning  'THREE' is not defined                 no-undef
+  397:30  warning  'THREE' is not defined                 no-undef
+  401:13  warning  'cylindergeometry' is already defined  no-redeclare
+  401:36  warning  'THREE' is not defined                 no-undef
+  402:13  warning  'cylindermaterial' is already defined  no-redeclare
+  402:36  warning  'THREE' is not defined                 no-undef
+  403:30  warning  'THREE' is not defined                 no-undef
+  407:13  warning  'cylindergeometry' is already defined  no-redeclare
+  407:36  warning  'THREE' is not defined                 no-undef
+  408:13  warning  'cylindermaterial' is already defined  no-redeclare
+  408:36  warning  'THREE' is not defined                 no-undef
+  409:30  warning  'THREE' is not defined                 no-undef
+  413:13  warning  'cylindergeometry' is already defined  no-redeclare
+  413:36  warning  'THREE' is not defined                 no-undef
+  414:13  warning  'cylindermaterial' is already defined  no-redeclare
+  414:36  warning  'THREE' is not defined                 no-undef
+  415:30  warning  'THREE' is not defined                 no-undef
+  419:26  warning  'THREE' is not defined                 no-undef
+  419:41  warning  'THREE' is not defined                 no-undef
+  419:76  warning  'THREE' is not defined                 no-undef
+  424:13  warning  'cylindergeometry' is already defined  no-redeclare
+  424:36  warning  'THREE' is not defined                 no-undef
+  425:13  warning  'cylindermaterial' is already defined  no-redeclare
+  425:36  warning  'THREE' is not defined                 no-undef
+  426:29  warning  'THREE' is not defined                 no-undef
+  430:13  warning  'cylindergeometry' is already defined  no-redeclare
+  430:36  warning  'THREE' is not defined                 no-undef
+  431:13  warning  'cylindermaterial' is already defined  no-redeclare
+  431:36  warning  'THREE' is not defined                 no-undef
+  432:29  warning  'THREE' is not defined                 no-undef
+  438:13  warning  'SphereGeometry' is already defined    no-redeclare
+  438:34  warning  'THREE' is not defined                 no-undef
+  439:13  warning  'Spherematerial' is already defined    no-redeclare
+  439:34  warning  'THREE' is not defined                 no-undef
+  440:27  warning  'THREE' is not defined                 no-undef
+  444:13  warning  'SphereGeometry' is already defined    no-redeclare
+  444:34  warning  'THREE' is not defined                 no-undef
+  445:13  warning  'Spherematerial' is already defined    no-redeclare
+  445:34  warning  'THREE' is not defined                 no-undef
+  446:28  warning  'THREE' is not defined                 no-undef
+  463:26  warning  'THREE' is not defined                 no-undef
+  464:25  warning  'THREE' is not defined                 no-undef
+  464:40  warning  'THREE' is not defined                 no-undef
+  464:77  warning  'THREE' is not defined                 no-undef
+  469:13  warning  'cylindergeometry' is already defined  no-redeclare
+  469:36  warning  'THREE' is not defined                 no-undef
+  470:13  warning  'cylindermaterial' is already defined  no-redeclare
+  470:36  warning  'THREE' is not defined                 no-undef
+  471:29  warning  'THREE' is not defined                 no-undef
+  475:13  warning  'cylindergeometry' is already defined  no-redeclare
+  475:36  warning  'THREE' is not defined                 no-undef
+  476:13  warning  'cylindermaterial' is already defined  no-redeclare
+  476:36  warning  'THREE' is not defined                 no-undef
+  477:30  warning  'THREE' is not defined                 no-undef
+  481:25  warning  'THREE' is not defined                 no-undef
+  481:40  warning  'THREE' is not defined                 no-undef
+  481:74  warning  'THREE' is not defined                 no-undef
+  486:13  warning  'cylindergeometry' is already defined  no-redeclare
+  486:36  warning  'THREE' is not defined                 no-undef
+  487:13  warning  'cylindermaterial' is already defined  no-redeclare
+  487:36  warning  'THREE' is not defined                 no-undef
+  488:31  warning  'THREE' is not defined                 no-undef
+  493:13  warning  'cylindergeometry' is already defined  no-redeclare
+  493:36  warning  'THREE' is not defined                 no-undef
+  494:13  warning  'cylindermaterial' is already defined  no-redeclare
+  494:36  warning  'THREE' is not defined                 no-undef
+  495:30  warning  'THREE' is not defined                 no-undef
+  500:13  warning  'cylindergeometry' is already defined  no-redeclare
+  500:36  warning  'THREE' is not defined                 no-undef
+  501:13  warning  'cylindermaterial' is already defined  no-redeclare
+  501:36  warning  'THREE' is not defined                 no-undef
+  502:31  warning  'THREE' is not defined                 no-undef
+  507:13  warning  'cylindergeometry' is already defined  no-redeclare
+  507:36  warning  'THREE' is not defined                 no-undef
+  508:13  warning  'cylindermaterial' is already defined  no-redeclare
+  508:36  warning  'THREE' is not defined                 no-undef
+  509:30  warning  'THREE' is not defined                 no-undef
+  515:13  warning  'cylindergeometry' is already defined  no-redeclare
+  515:36  warning  'THREE' is not defined                 no-undef
+  516:13  warning  'cylindermaterial' is already defined  no-redeclare
+  516:36  warning  'THREE' is not defined                 no-undef
+  517:31  warning  'THREE' is not defined                 no-undef
+  524:13  warning  'cylindergeometry' is already defined  no-redeclare
+  524:36  warning  'THREE' is not defined                 no-undef
+  525:13  warning  'cylindermaterial' is already defined  no-redeclare
+  525:36  warning  'THREE' is not defined                 no-undef
+  526:31  warning  'THREE' is not defined                 no-undef
+  531:13  warning  'cylindergeometry' is already defined  no-redeclare
+  531:36  warning  'THREE' is not defined                 no-undef
+  532:13  warning  'cylindermaterial' is already defined  no-redeclare
+  532:36  warning  'THREE' is not defined                 no-undef
+  533:31  warning  'THREE' is not defined                 no-undef
+  537:13  warning  'cylindergeometry' is already defined  no-redeclare
+  537:36  warning  'THREE' is not defined                 no-undef
+  538:13  warning  'cylindermaterial' is already defined  no-redeclare
+  538:36  warning  'THREE' is not defined                 no-undef
+  539:31  warning  'THREE' is not defined                 no-undef
+  544:26  warning  'THREE' is not defined                 no-undef
+  544:41  warning  'THREE' is not defined                 no-undef
+  544:75  warning  'THREE' is not defined                 no-undef
+  549:26  warning  'THREE' is not defined                 no-undef
+  549:41  warning  'THREE' is not defined                 no-undef
+  549:75  warning  'THREE' is not defined                 no-undef
+  554:25  warning  'THREE' is not defined                 no-undef
+  554:40  warning  'THREE' is not defined                 no-undef
+  554:78  warning  'THREE' is not defined                 no-undef
+  559:25  warning  'THREE' is not defined                 no-undef
+  559:40  warning  'THREE' is not defined                 no-undef
+  559:76  warning  'THREE' is not defined                 no-undef
+  585:29  warning  'THREE' is not defined                 no-undef
+  586:26  warning  'THREE' is not defined                 no-undef
+  586:41  warning  'THREE' is not defined                 no-undef
+  586:77  warning  'THREE' is not defined                 no-undef
+  593:13  warning  'cylindergeometry' is already defined  no-redeclare
+  593:36  warning  'THREE' is not defined                 no-undef
+  594:13  warning  'cylindermaterial' is already defined  no-redeclare
+  594:36  warning  'THREE' is not defined                 no-undef
+  595:30  warning  'THREE' is not defined                 no-undef
+  599:13  warning  'cylindergeometry' is already defined  no-redeclare
+  599:36  warning  'THREE' is not defined                 no-undef
+  600:13  warning  'cylindermaterial' is already defined  no-redeclare
+  600:36  warning  'THREE' is not defined                 no-undef
+  601:31  warning  'THREE' is not defined                 no-undef
+  606:13  warning  'cylindergeometry' is already defined  no-redeclare
+  606:36  warning  'THREE' is not defined                 no-undef
+  607:13  warning  'cylindermaterial' is already defined  no-redeclare
+  607:36  warning  'THREE' is not defined                 no-undef
+  608:32  warning  'THREE' is not defined                 no-undef
+  615:13  warning  'cylindergeometry' is already defined  no-redeclare
+  615:36  warning  'THREE' is not defined                 no-undef
+  616:13  warning  'cylindermaterial' is already defined  no-redeclare
+  616:36  warning  'THREE' is not defined                 no-undef
+  617:31  warning  'THREE' is not defined                 no-undef
+  628:13  warning  'SphereGeometry' is already defined    no-redeclare
+  628:34  warning  'THREE' is not defined                 no-undef
+  629:13  warning  'Spherematerial' is already defined    no-redeclare
+  629:34  warning  'THREE' is not defined                 no-undef
+  630:27  warning  'THREE' is not defined                 no-undef
+  634:13  warning  'SphereGeometry' is already defined    no-redeclare
+  634:34  warning  'THREE' is not defined                 no-undef
+  635:13  warning  'Spherematerial' is already defined    no-redeclare
+  635:34  warning  'THREE' is not defined                 no-undef
+  636:27  warning  'THREE' is not defined                 no-undef
+  651:30  warning  'THREE' is not defined                 no-undef
+  657:26  warning  'THREE' is not defined                 no-undef
+  657:41  warning  'THREE' is not defined                 no-undef
+  657:77  warning  'THREE' is not defined                 no-undef
+  662:26  warning  'THREE' is not defined                 no-undef
+  662:41  warning  'THREE' is not defined                 no-undef
+  662:76  warning  'THREE' is not defined                 no-undef
+  667:23  warning  'THREE' is not defined                 no-undef
+  668:23  warning  'THREE' is not defined                 no-undef
+  668:71  warning  'THREE' is not defined                 no-undef
+  669:25  warning  'THREE' is not defined                 no-undef
+  673:13  warning  'cylindergeometry' is already defined  no-redeclare
+  673:36  warning  'THREE' is not defined                 no-undef
+  674:13  warning  'cylindermaterial' is already defined  no-redeclare
+  674:36  warning  'THREE' is not defined                 no-undef
+  675:31  warning  'THREE' is not defined                 no-undef
+  682:13  warning  'cylindergeometry' is already defined  no-redeclare
+  682:36  warning  'THREE' is not defined                 no-undef
+  683:13  warning  'cylindermaterial' is already defined  no-redeclare
+  683:36  warning  'THREE' is not defined                 no-undef
+  684:30  warning  'THREE' is not defined                 no-undef
+  690:23  warning  'THREE' is not defined                 no-undef
+  695:24  warning  'THREE' is not defined                 no-undef
+  696:13  warning  'cylindergeometry' is already defined  no-redeclare
+  696:36  warning  'THREE' is not defined                 no-undef
+  697:13  warning  'cylindermaterial' is already defined  no-redeclare
+  697:36  warning  'THREE' is not defined                 no-undef
+  698:30  warning  'THREE' is not defined                 no-undef
+  704:13  warning  'cylindergeometry' is already defined  no-redeclare
+  704:36  warning  'THREE' is not defined                 no-undef
+  705:13  warning  'cylindermaterial' is already defined  no-redeclare
+  705:36  warning  'THREE' is not defined                 no-undef
+  706:31  warning  'THREE' is not defined                 no-undef
+  716:13  warning  'cylindergeometry' is already defined  no-redeclare
+  716:36  warning  'THREE' is not defined                 no-undef
+  717:13  warning  'cylindermaterial' is already defined  no-redeclare
+  717:36  warning  'THREE' is not defined                 no-undef
+  718:31  warning  'THREE' is not defined                 no-undef
+  724:13  warning  'cylindergeometry' is already defined  no-redeclare
+  724:36  warning  'THREE' is not defined                 no-undef
+  725:13  warning  'cylindermaterial' is already defined  no-redeclare
+  725:36  warning  'THREE' is not defined                 no-undef
+  726:31  warning  'THREE' is not defined                 no-undef
+  731:13  warning  'cylindergeometry' is already defined  no-redeclare
+  731:36  warning  'THREE' is not defined                 no-undef
+  732:13  warning  'cylindermaterial' is already defined  no-redeclare
+  732:36  warning  'THREE' is not defined                 no-undef
+  733:31  warning  'THREE' is not defined                 no-undef
+  744:29  warning  'THREE' is not defined                 no-undef
+  745:29  warning  'THREE' is not defined                 no-undef
+  746:29  warning  'THREE' is not defined                 no-undef
+  747:29  warning  'THREE' is not defined                 no-undef
+  748:29  warning  'THREE' is not defined                 no-undef
+  749:29  warning  'THREE' is not defined                 no-undef
+  750:29  warning  'THREE' is not defined                 no-undef
+  751:29  warning  'THREE' is not defined                 no-undef
+  752:29  warning  'THREE' is not defined                 no-undef
+  753:29  warning  'THREE' is not defined                 no-undef
+  755:29  warning  'THREE' is not defined                 no-undef
+  763:32  warning  'THREE' is not defined                 no-undef
+  765:33  warning  'THREE' is not defined                 no-undef
+  766:32  warning  'THREE' is not defined                 no-undef
+  768:32  warning  'THREE' is not defined                 no-undef
+  770:25  warning  'THREE' is not defined                 no-undef
+  839:10  warning  'animate' is defined but never used    no-unused-vars
+
+/home/runner/work/exp-parametric-impulse-waveform-iitkgp/exp-parametric-impulse-waveform-iitkgp/experiment/simulation/js/slider.js
+  10:10  warning  'aaa' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-parametric-impulse-waveform-iitkgp/exp-parametric-impulse-waveform-iitkgp/experiment/simulation/lib/js/jquery/jquery-1.10.2.js
+    14:20  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+    86:27  warning  Unnecessary escape character: \/                                           no-useless-escape
+   502:22  warning  Empty block statement                                                      no-empty
+   588:15  warning  'ActiveXObject' is not defined                                             no-undef
+   951:15  warning  Empty block statement                                                      no-empty
+  1012:20  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  1177:39  warning  Empty block statement                                                      no-empty
+  1278:23  warning  Empty block statement                                                      no-empty
+  1814:14  warning  Empty block statement                                                      no-empty
+  2165:28  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  3872:17  warning  Empty block statement                                                      no-empty
+  4078:17  warning  Empty block statement                                                      no-empty
+  4723:18  warning  Empty block statement                                                      no-empty
+  5701:23  warning  Unnecessary escape character: \[                                           no-useless-escape
+  5701:25  warning  Unnecessary escape character: \.                                           no-useless-escape
+  6170:16  warning  Empty block statement                                                      no-empty
+  7032:16  warning  Empty block statement                                                      no-empty
+  7600:32  warning  Unnecessary escape character: \/                                           no-useless-escape
+  8622:15  warning  Empty block statement                                                      no-empty
+  8628:15  warning  Empty block statement                                                      no-empty
+  8701:21  warning  Empty block statement                                                      no-empty
+  9767:36  warning  'module' is not defined                                                    no-undef
+  9767:53  warning  'module' is not defined                                                    no-undef
+  9772:2   warning  'module' is not defined                                                    no-undef
+  9784:39  warning  'define' is not defined                                                    no-undef
+  9785:3   warning  'define' is not defined                                                    no-undef
+
+/home/runner/work/exp-parametric-impulse-waveform-iitkgp/exp-parametric-impulse-waveform-iitkgp/experiment/simulation/lib/js/jquery/jquery-ui-1.10.4.custom.js
+      6:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+    315:5   warning  'jQuery' is not defined                                                    no-undef
+    316:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+    326:16  warning  Empty block statement                                                      no-empty
+    453:29  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+    826:5   warning  'jQuery' is not defined                                                    no-undef
+    827:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+    827:15  warning  'undefined' is defined but never used                                      no-unused-vars
+    982:4   warning  'jQuery' is not defined                                                    no-undef
+    983:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+    993:14  warning  Unnecessary escape character: \+                                           no-useless-escape
+    993:16  warning  Unnecessary escape character: \-                                           no-useless-escape
+   1473:4   warning  'jQuery' is not defined                                                    no-undef
+   1474:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+   1474:15  warning  'undefined' is defined but never used                                      no-unused-vars
+   2416:4   warning  'jQuery' is not defined                                                    no-undef
+   2417:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+   2417:15  warning  'undefined' is defined but never used                                      no-unused-vars
+   2789:4   warning  'jQuery' is not defined                                                    no-undef
+   2790:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+   2790:15  warning  'undefined' is defined but never used                                      no-unused-vars
+   3752:4   warning  'jQuery' is not defined                                                    no-undef
+   3753:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+   3753:15  warning  'undefined' is defined but never used                                      no-unused-vars
+   4014:4   warning  'jQuery' is not defined                                                    no-undef
+   4015:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+   4015:15  warning  'undefined' is defined but never used                                      no-unused-vars
+   4507:95  warning  Unnecessary escape character: \-                                           no-useless-escape
+   5288:4   warning  'jQuery' is not defined                                                    no-undef
+   5289:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+   5289:15  warning  'undefined' is defined but never used                                      no-unused-vars
+   5844:5   warning  'jQuery' is not defined                                                    no-undef
+   5845:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+   5845:15  warning  'undefined' is defined but never used                                      no-unused-vars
+   6394:26  warning  Unnecessary escape character: \-                                           no-useless-escape
+   6394:28  warning  Unnecessary escape character: \[                                           no-useless-escape
+   6394:43  warning  Unnecessary escape character: \^                                           no-useless-escape
+   6434:4   warning  'jQuery' is not defined                                                    no-undef
+   6435:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+   6435:15  warning  'undefined' is defined but never used                                      no-unused-vars
+   6815:4   warning  'jQuery' is not defined                                                    no-undef
+   6816:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+   6960:47  warning  Unnecessary escape character: \-                                           no-useless-escape
+   7474:16  warning  Empty block statement                                                      no-empty
+   8025:13  warning  Unexpected constant condition                                              no-constant-condition
+   8269:20  warning  Unnecessary escape character: \-                                           no-useless-escape
+   8609:34  warning  Unnecessary escape character: \-                                           no-useless-escape
+   8610:23  warning  Unnecessary escape character: \-                                           no-useless-escape
+   8717:32  warning  Unnecessary escape character: \-                                           no-useless-escape
+   8720:32  warning  Unnecessary escape character: \-                                           no-useless-escape
+   8840:4   warning  'jQuery' is not defined                                                    no-undef
+   8841:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+   8841:15  warning  'undefined' is defined but never used                                      no-unused-vars
+   9019:22  warning  Empty block statement                                                      no-empty
+   9644:4   warning  'jQuery' is not defined                                                    no-undef
+   9645:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+   9645:15  warning  'undefined' is defined but never used                                      no-unused-vars
+   9815:28  warning  Unnecessary escape character: \-                                           no-useless-escape
+   9815:30  warning  Unnecessary escape character: \[                                           no-useless-escape
+   9815:45  warning  Unnecessary escape character: \^                                           no-useless-escape
+  10177:6   warning  Unexpected newline between object and [ of property access                 no-unexpected-multiline
+  10181:6   warning  Unexpected newline between object and [ of property access                 no-unexpected-multiline
+  10213:5   warning  Unexpected newline between object and [ of property access                 no-unexpected-multiline
+  10256:4   warning  'jQuery' is not defined                                                    no-undef
+  10257:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  10387:5   warning  'jQuery' is not defined                                                    no-undef
+  10388:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  10388:15  warning  'undefined' is defined but never used                                      no-unused-vars
+  11048:3   warning  'jQuery' is not defined                                                    no-undef
+  11439:5   warning  'Globalize' is not defined                                                 no-undef
+  11449:4   warning  'Globalize' is not defined                                                 no-undef
+  11530:4   warning  'jQuery' is not defined                                                    no-undef
+  11531:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  11820:45  warning  Unnecessary escape character: \/                                           no-useless-escape
+  11820:54  warning  Unnecessary escape character: \[                                           no-useless-escape
+  11820:58  warning  Unnecessary escape character: \^                                           no-useless-escape
+  12365:5   warning  'jQuery' is not defined                                                    no-undef
+  12752:4   warning  'jQuery' is not defined                                                    no-undef
+  12753:14  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  12771:20  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  12776:20  warning  Unnecessary escape character: \-                                           no-useless-escape
+  12789:34  warning  Unnecessary escape character: \%                                           no-useless-escape
+  12789:58  warning  Unnecessary escape character: \%                                           no-useless-escape
+  12789:82  warning  Unnecessary escape character: \%                                           no-useless-escape
+  12819:56  warning  Unnecessary escape character: \%                                           no-useless-escape
+  12819:80  warning  Unnecessary escape character: \%                                           no-useless-escape
+  13352:22  warning  Empty block statement                                                      no-empty
+  13423:5   warning  'jQuery' is not defined                                                    no-undef
+  13447:4   warning  'jQuery' is not defined                                                    no-undef
+  14012:65  warning  Empty block statement                                                      no-empty
+  14031:4   warning  'jQuery' is not defined                                                    no-undef
+  14032:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  14032:15  warning  'undefined' is defined but never used                                      no-unused-vars
+  14100:4   warning  'jQuery' is not defined                                                    no-undef
+  14101:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  14101:15  warning  'undefined' is defined but never used                                      no-unused-vars
+  14200:4   warning  'jQuery' is not defined                                                    no-undef
+  14201:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  14201:15  warning  'undefined' is defined but never used                                      no-unused-vars
+  14254:4   warning  'jQuery' is not defined                                                    no-undef
+  14255:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  14255:15  warning  'undefined' is defined but never used                                      no-unused-vars
+  14306:4   warning  'jQuery' is not defined                                                    no-undef
+  14307:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  14307:15  warning  'undefined' is defined but never used                                      no-unused-vars
+  14390:4   warning  'jQuery' is not defined                                                    no-undef
+  14391:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  14391:15  warning  'undefined' is defined but never used                                      no-unused-vars
+  14407:5   warning  'jQuery' is not defined                                                    no-undef
+  14408:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  14408:15  warning  'undefined' is defined but never used                                      no-unused-vars
+  14470:4   warning  'jQuery' is not defined                                                    no-undef
+  14471:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  14471:15  warning  'undefined' is defined but never used                                      no-unused-vars
+  14507:4   warning  'jQuery' is not defined                                                    no-undef
+  14508:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  14508:15  warning  'undefined' is defined but never used                                      no-unused-vars
+  14557:4   warning  'jQuery' is not defined                                                    no-undef
+  14558:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  14558:15  warning  'undefined' is defined but never used                                      no-unused-vars
+  14862:4   warning  'jQuery' is not defined                                                    no-undef
+  14863:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  14863:15  warning  'undefined' is defined but never used                                      no-unused-vars
+  14923:4   warning  'jQuery' is not defined                                                    no-undef
+  14924:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  14924:15  warning  'undefined' is defined but never used                                      no-unused-vars
+  14974:4   warning  'jQuery' is not defined                                                    no-undef
+  14975:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  14975:15  warning  'undefined' is defined but never used                                      no-unused-vars
+  15008:4   warning  'jQuery' is not defined                                                    no-undef
+
+/home/runner/work/exp-parametric-impulse-waveform-iitkgp/exp-parametric-impulse-waveform-iitkgp/experiment/simulation/lib/js/jquery/jquery-ui-1.10.4.custom.min.js
+  6:4148    warning  'jQuery' is not defined                                                    no-undef
+  6:4316    warning  Empty block statement                                                      no-empty
+  6:5553    warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  6:10535   warning  'jQuery' is not defined                                                    no-undef
+  6:13242   warning  'jQuery' is not defined                                                    no-undef
+  6:13860   warning  Unnecessary escape character: \+                                           no-useless-escape
+  6:13862   warning  Unnecessary escape character: \-                                           no-useless-escape
+  6:19468   warning  'jQuery' is not defined                                                    no-undef
+  6:37893   warning  'jQuery' is not defined                                                    no-undef
+  6:43743   warning  'jQuery' is not defined                                                    no-undef
+  6:61018   warning  'jQuery' is not defined                                                    no-undef
+  6:64949   warning  'jQuery' is not defined                                                    no-undef
+  6:72826   warning  Unnecessary escape character: \-                                           no-useless-escape
+  6:88925   warning  'jQuery' is not defined                                                    no-undef
+  6:97157   warning  'jQuery' is not defined                                                    no-undef
+  6:104200  warning  Unnecessary escape character: \-                                           no-useless-escape
+  6:104202  warning  Unnecessary escape character: \[                                           no-useless-escape
+  6:104217  warning  Unnecessary escape character: \^                                           no-useless-escape
+  6:104809  warning  'jQuery' is not defined                                                    no-undef
+  6:111548  warning  'jQuery' is not defined                                                    no-undef
+  6:114952  warning  Unnecessary escape character: \-                                           no-useless-escape
+  6:123902  warning  Empty block statement                                                      no-empty
+  6:135190  warning  Empty block statement                                                      no-empty
+  6:135325  warning  Unnecessary escape character: \-                                           no-useless-escape
+  6:143502  warning  Unnecessary escape character: \-                                           no-useless-escape
+  6:143551  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1942    warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1972    warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:3629    warning  'jQuery' is not defined                                                    no-undef
+  7:6048    warning  Empty block statement                                                      no-empty
+  7:14757   warning  'jQuery' is not defined                                                    no-undef
+  7:17485   warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:17487   warning  Unnecessary escape character: \[                                           no-useless-escape
+  7:17502   warning  Unnecessary escape character: \^                                           no-useless-escape
+  7:24206   warning  'jQuery' is not defined                                                    no-undef
+  7:26250   warning  'jQuery' is not defined                                                    no-undef
+  7:36360   warning  'jQuery' is not defined                                                    no-undef
+  7:41780   warning  'Globalize' is not defined                                                 no-undef
+  7:41937   warning  'Globalize' is not defined                                                 no-undef
+  7:43115   warning  'jQuery' is not defined                                                    no-undef
+  7:46799   warning  Unnecessary escape character: \/                                           no-useless-escape
+  7:46808   warning  Unnecessary escape character: \[                                           no-useless-escape
+  7:46812   warning  Unnecessary escape character: \^                                           no-useless-escape
+  7:49264   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:54604   warning  'jQuery' is not defined                                                    no-undef
+  7:59251   warning  'jQuery' is not defined                                                    no-undef
+  7:60026   warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:60219   warning  Unnecessary escape character: \%                                           no-useless-escape
+  7:60243   warning  Unnecessary escape character: \%                                           no-useless-escape
+  7:60267   warning  Unnecessary escape character: \%                                           no-useless-escape
+  7:60682   warning  Unnecessary escape character: \%                                           no-useless-escape
+  7:60706   warning  Unnecessary escape character: \%                                           no-useless-escape
+  7:65062   warning  Empty block statement                                                      no-empty
+  7:65153   warning  Empty block statement                                                      no-empty
+  7:65780   warning  'jQuery' is not defined                                                    no-undef
+  7:66533   warning  'jQuery' is not defined                                                    no-undef
+  7:72089   warning  'jQuery' is not defined                                                    no-undef
+  7:72910   warning  'jQuery' is not defined                                                    no-undef
+  7:73833   warning  'jQuery' is not defined                                                    no-undef
+  7:74431   warning  'jQuery' is not defined                                                    no-undef
+  7:75108   warning  'jQuery' is not defined                                                    no-undef
+  7:75958   warning  'jQuery' is not defined                                                    no-undef
+  7:76153   warning  'jQuery' is not defined                                                    no-undef
+  7:76863   warning  'jQuery' is not defined                                                    no-undef
+  7:77322   warning  'jQuery' is not defined                                                    no-undef
+  7:77796   warning  'jQuery' is not defined                                                    no-undef
+  7:82017   warning  'jQuery' is not defined                                                    no-undef
+  7:82796   warning  'jQuery' is not defined                                                    no-undef
+  7:83436   warning  'jQuery' is not defined                                                    no-undef
+  7:83965   warning  'jQuery' is not defined                                                    no-undef
+
+/home/runner/work/exp-parametric-impulse-waveform-iitkgp/exp-parametric-impulse-waveform-iitkgp/experiment/simulation/lib/js/threejs/TrackballControls.js
+    6:1   warning  'THREE' is not defined             no-undef
+   39:20  warning  'THREE' is not defined             no-undef
+   43:25  warning  'THREE' is not defined             no-undef
+   48:13  warning  'THREE' is not defined             no-undef
+   50:21  warning  'THREE' is not defined             no-undef
+   51:19  warning  'THREE' is not defined             no-undef
+   53:19  warning  'THREE' is not defined             no-undef
+   54:17  warning  'THREE' is not defined             no-undef
+   59:18  warning  'THREE' is not defined             no-undef
+   60:16  warning  'THREE' is not defined             no-undef
+  121:22  warning  'THREE' is not defined             no-undef
+  122:2   warning  Mixed spaces and tabs              no-mixed-spaces-and-tabs
+  122:25  warning  'THREE' is not defined             no-undef
+  170:18  warning  'THREE' is not defined             no-undef
+  171:21  warning  'THREE' is not defined             no-undef
+  217:8   warning  'factor' is already defined        no-redeclare
+  241:25  warning  'THREE' is not defined             no-undef
+  242:19  warning  'THREE' is not defined             no-undef
+  243:14  warning  'THREE' is not defined             no-undef
+  381:18  warning  'event' is defined but never used  no-unused-vars
+  599:1   warning  'THREE' is not defined             no-undef
+  599:52  warning  'THREE' is not defined             no-undef
+
+/home/runner/work/exp-parametric-impulse-waveform-iitkgp/exp-parametric-impulse-waveform-iitkgp/experiment/simulation/lib/js/threejs/stats.min.js
+  2:5  warning  'Stats' is assigned a value but never used  no-unused-vars
+
+/home/runner/work/exp-parametric-impulse-waveform-iitkgp/exp-parametric-impulse-waveform-iitkgp/experiment/simulation/lib/js/threejs/three.min.js
+    2:67   warning  'module' is not defined                                          no-undef
+    7:393  warning  'a' is defined but never used                                    no-unused-vars
+    7:395  warning  'b' is defined but never used                                    no-unused-vars
+   10:404  warning  Unnecessary escape character: \%                                 no-useless-escape
+   10:414  warning  Unnecessary escape character: \%                                 no-useless-escape
+   10:424  warning  Unnecessary escape character: \%                                 no-useless-escape
+   10:461  warning  Unnecessary escape character: \%                                 no-useless-escape
+   10:471  warning  Unnecessary escape character: \%                                 no-useless-escape
+   10:481  warning  Unnecessary escape character: \%                                 no-useless-escape
+   11:133  warning  Unnecessary escape character: \#                                 no-useless-escape
+   11:171  warning  Unnecessary escape character: \#                                 no-useless-escape
+   11:239  warning  Unnecessary escape character: \#                                 no-useless-escape
+   11:294  warning  Unnecessary escape character: \#                                 no-useless-escape
+   13:244  warning  'f' is already defined                                           no-redeclare
+   25:238  warning  'b' is already defined                                           no-redeclare
+   44:175  warning  'b' is already defined                                           no-redeclare
+   51:242  warning  'a' is defined but never used                                    no-unused-vars
+   51:244  warning  'b' is defined but never used                                    no-unused-vars
+   51:403  warning  'a' is defined but never used                                    no-unused-vars
+   51:405  warning  'b' is defined but never used                                    no-unused-vars
+   68:224  warning  'e' is already defined                                           no-redeclare
+   74:268  warning  'e' is already defined                                           no-redeclare
+   82:124  warning  'e' is already defined                                           no-redeclare
+   91:163  warning  'a' is already defined                                           no-redeclare
+   97:398  warning  'c' is already defined                                           no-redeclare
+   97:426  warning  'd' is already defined                                           no-redeclare
+   97:454  warning  'e' is already defined                                           no-redeclare
+  100:118  warning  'c' is already defined                                           no-redeclare
+  100:130  warning  'd' is already defined                                           no-redeclare
+  100:136  warning  'e' is already defined                                           no-redeclare
+  100:142  warning  'g' is already defined                                           no-redeclare
+  100:148  warning  'h' is already defined                                           no-redeclare
+  100:154  warning  'f' is already defined                                           no-redeclare
+  102:90   warning  'c' is already defined                                           no-redeclare
+  102:208  warning  'd' is already defined                                           no-redeclare
+  108:306  warning  'd' is already defined                                           no-redeclare
+  110:251  warning  'a' is defined but never used                                    no-unused-vars
+  110:334  warning  'a' is defined but never used                                    no-unused-vars
+  110:415  warning  'a' is defined but never used                                    no-unused-vars
+  110:496  warning  'a' is defined but never used                                    no-unused-vars
+  111:23   warning  'a' is defined but never used                                    no-unused-vars
+  111:25   warning  'b' is defined but never used                                    no-unused-vars
+  114:61   warning  'f' is already defined                                           no-redeclare
+  129:445  warning  'c' is already defined                                           no-redeclare
+  131:451  warning  'f' is already defined                                           no-redeclare
+  136:245  warning  'f' is already defined                                           no-redeclare
+  151:1    warning  'a' is already defined                                           no-redeclare
+  159:298  warning  Expected to return a value in getter 'useQuaternion'             getter-return
+  190:151  warning  'e' is already defined                                           no-redeclare
+  190:155  warning  'f' is already defined                                           no-redeclare
+  191:224  warning  'c' is already defined                                           no-redeclare
+  192:22   warning  'd' is already defined                                           no-redeclare
+  192:26   warning  'e' is already defined                                           no-redeclare
+  196:53   warning  'p' is already defined                                           no-redeclare
+  196:124  warning  'g' is already defined                                           no-redeclare
+  196:282  warning  'p' is already defined                                           no-redeclare
+  198:445  warning  'f' is already defined                                           no-redeclare
+  216:12   warning  'g' is already defined                                           no-redeclare
+  216:56   warning  'm' is already defined                                           no-redeclare
+  220:116  warning  'h' is already defined                                           no-redeclare
+  220:365  warning  'x' is already defined                                           no-redeclare
+  220:376  warning  'x' is already defined                                           no-redeclare
+  220:388  warning  'x' is already defined                                           no-redeclare
+  220:400  warning  'x' is already defined                                           no-redeclare
+  220:411  warning  'x' is already defined                                           no-redeclare
+  220:422  warning  'x' is already defined                                           no-redeclare
+  220:433  warning  'x' is already defined                                           no-redeclare
+  220:444  warning  'x' is already defined                                           no-redeclare
+  233:218  warning  'a' is already defined                                           no-redeclare
+  233:277  warning  'b' is already defined                                           no-redeclare
+  233:295  warning  'c' is already defined                                           no-redeclare
+  248:49   warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+  249:470  warning  'b' is already defined                                           no-redeclare
+  258:202  warning  'c' is defined but never used                                    no-unused-vars
+  260:221  warning  'c' is defined but never used                                    no-unused-vars
+  271:128  warning  'a' is defined but never used                                    no-unused-vars
+  286:213  warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+  335:364  warning  'g' is already defined                                           no-redeclare
+  336:184  warning  'n' is already defined                                           no-redeclare
+  336:330  warning  'f' is already defined                                           no-redeclare
+  336:334  warning  's' is already defined                                           no-redeclare
+  339:143  warning  'f' is already defined                                           no-redeclare
+  340:83   warning  'm' is already defined                                           no-redeclare
+  340:241  warning  'g' is already defined                                           no-redeclare
+  346:231  warning  'p' is already defined                                           no-redeclare
+  346:257  warning  'k' is already defined                                           no-redeclare
+  349:14   warning  'x' is already defined                                           no-redeclare
+  354:189  warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+  359:56   warning  'a' is defined but never used                                    no-unused-vars
+  433:127  warning  'e' is already defined                                           no-redeclare
+  434:313  warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+  435:67   warning  'g' is already defined                                           no-redeclare
+  435:85   warning  'h' is already defined                                           no-redeclare
+  440:300  warning  'c' is already defined                                           no-redeclare
+  440:311  warning  'd' is already defined                                           no-redeclare
+  441:329  warning  'h' is already defined                                           no-redeclare
+  444:218  warning  'd' is already defined                                           no-redeclare
+  444:310  warning  'e' is already defined                                           no-redeclare
+  446:332  warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+  446:455  warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+  448:383  warning  'g' is already defined                                           no-redeclare
+  481:240  warning  'ya' is already defined                                          no-redeclare
+  526:241  warning  'c' is already defined                                           no-redeclare
+  541:312  warning  'm' is already defined                                           no-redeclare
+  582:281  warning  'D' is already defined                                           no-redeclare
+  584:297  warning  'D' is already defined                                           no-redeclare
+  584:300  warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+  587:1    warning  'K' is already defined                                           no-redeclare
+  590:408  warning  'T' is already defined                                           no-redeclare
+  605:61   warning  'K' is already defined                                           no-redeclare
+  605:81   warning  'L' is already defined                                           no-redeclare
+  609:234  warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+  609:492  warning  'N' is already defined                                           no-redeclare
+  610:151  warning  'N' is already defined                                           no-redeclare
+  610:155  warning  'T' is already defined                                           no-redeclare
+  610:179  warning  'Q' is already defined                                           no-redeclare
+  616:76   warning  'r' is already defined                                           no-redeclare
+  616:96   warning  'r' is already defined                                           no-redeclare
+  616:130  warning  'y' is already defined                                           no-redeclare
+  620:151  warning  'h' is already defined                                           no-redeclare
+  620:191  warning  'd' is already defined                                           no-redeclare
+  621:148  warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+  625:1    warning  't' is already defined                                           no-redeclare
+  625:13   warning  's' is already defined                                           no-redeclare
+  625:25   warning  'r' is already defined                                           no-redeclare
+  625:37   warning  'u' is already defined                                           no-redeclare
+  625:49   warning  'v' is already defined                                           no-redeclare
+  625:61   warning  'y' is already defined                                           no-redeclare
+  625:210  warning  'M' is already defined                                           no-redeclare
+  625:227  warning  'F' is already defined                                           no-redeclare
+  625:233  warning  'z' is already defined                                           no-redeclare
+  625:239  warning  'G' is already defined                                           no-redeclare
+  625:245  warning  'E' is already defined                                           no-redeclare
+  625:251  warning  'w' is already defined                                           no-redeclare
+  625:257  warning  'D' is already defined                                           no-redeclare
+  628:138  warning  'a' is defined but never used                                    no-unused-vars
+  631:66   warning  'a' is defined but never used                                    no-unused-vars
+  635:237  warning  'b' is defined but never used                                    no-unused-vars
+  635:239  warning  'c' is defined but never used                                    no-unused-vars
+  635:241  warning  'd' is defined but never used                                    no-unused-vars
+  635:243  warning  'e' is defined but never used                                    no-unused-vars
+  645:168  warning  'a' is defined but never used                                    no-unused-vars
+  645:170  warning  'b' is defined but never used                                    no-unused-vars
+  646:130  warning  'd' is already defined                                           no-redeclare
+  647:144  warning  'f' is already defined                                           no-redeclare
+  648:145  warning  'h' is already defined                                           no-redeclare
+  649:132  warning  'c' is already defined                                           no-redeclare
+  651:49   warning  'b' is defined but never used                                    no-unused-vars
+  657:494  warning  'n' is already defined                                           no-redeclare
+  658:140  warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+  665:55   warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+  668:464  warning  'a' is defined but never used                                    no-unused-vars
+  673:167  warning  'b' is already defined                                           no-redeclare
+  673:200  warning  'c' is already defined                                           no-redeclare
+  678:208  warning  'b' is already defined                                           no-redeclare
+  678:241  warning  'c' is already defined                                           no-redeclare
+  679:158  warning  'c' is already defined                                           no-redeclare
+  679:272  warning  'b' is already defined                                           no-redeclare
+  679:292  warning  'c' is already defined                                           no-redeclare
+  687:19   warning  'c' is already defined                                           no-redeclare
+  700:339  warning  'd' is already defined                                           no-redeclare
+  713:434  warning  't' is already defined                                           no-redeclare
+  713:444  warning  's' is already defined                                           no-redeclare
+  713:456  warning  'r' is already defined                                           no-redeclare
+  713:470  warning  'u' is already defined                                           no-redeclare
+  713:482  warning  'v' is already defined                                           no-redeclare
+  713:494  warning  'y' is already defined                                           no-redeclare
+  718:164  warning  'd' is already defined                                           no-redeclare
+  718:282  warning  'h' is already defined                                           no-redeclare
+  719:209  warning  'e' is already defined                                           no-redeclare
+  719:252  warning  'g' is already defined                                           no-redeclare
+  719:268  warning  'h' is already defined                                           no-redeclare
+  719:276  warning  'k' is already defined                                           no-redeclare
+  719:282  warning  'g' is already defined                                           no-redeclare
+  719:288  warning  'm' is already defined                                           no-redeclare
+  719:294  warning  'h' is already defined                                           no-redeclare
+  721:351  warning  's' is already defined                                           no-redeclare
+  721:372  warning  'm' is already defined                                           no-redeclare
+  721:395  warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+  722:164  warning  's' is already defined                                           no-redeclare
+  730:276  warning  'k' is already defined                                           no-redeclare
+  730:474  warning  'n' is already defined                                           no-redeclare
+  730:482  warning  'p' is already defined                                           no-redeclare
+  730:488  warning  'm' is already defined                                           no-redeclare
+  730:494  warning  't' is already defined                                           no-redeclare
+  739:252  warning  'q' is already defined                                           no-redeclare
+  739:291  warning  'm' is already defined                                           no-redeclare
+  739:330  warning  't' is already defined                                           no-redeclare
+  739:369  warning  's' is already defined                                           no-redeclare
+  739:408  warning  'r' is already defined                                           no-redeclare
+  747:47   warning  't' is already defined                                           no-redeclare
+  747:224  warning  'r' is already defined                                           no-redeclare
+  751:279  warning  'a' is defined but never used                                    no-unused-vars
+  757:267  warning  'p' is already defined                                           no-redeclare
+  757:436  warning  'n' is already defined                                           no-redeclare
+  757:440  warning  'p' is already defined                                           no-redeclare
+  772:132  warning  'b' is already defined                                           no-redeclare
+  784:228  warning  'k' is already defined                                           no-redeclare
+  791:42   warning  'c' is defined but never used                                    no-unused-vars
+  791:44   warning  'd' is defined but never used                                    no-unused-vars
+  804:53   warning  'a' is defined but never used                                    no-unused-vars
+  808:54   warning  'a' is defined but never used                                    no-unused-vars
+  811:370  warning  'q' is already defined                                           no-redeclare
+  811:400  warning  's' is already defined                                           no-redeclare
+  811:431  warning  'r' is already defined                                           no-redeclare
+  811:444  warning  'u' is already defined                                           no-redeclare
+  811:457  warning  'g' is already defined                                           no-redeclare
+  811:470  warning  'm' is already defined                                           no-redeclare
+  813:357  warning  'a' is defined but never used                                    no-unused-vars
+  817:76   warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+  817:215  warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+  818:432  warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+  819:77   warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+  819:338  warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+
+✖ 1045 problems (0 errors, 1045 warnings)
+  0 errors and 1 warning potentially fixable with the `--fix` option.
+
