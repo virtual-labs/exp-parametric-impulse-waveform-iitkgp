@@ -1,0 +1,287 @@
+<!--/
+ * 
+ *  Document     : impulse-voltage-generator-webgl-simulator.html
+ *  Created on   : Marn9, 2017, 3:35:25 PM
+ *  Author       : Subir Sekhar
+ *  Co-Author    : Pabitra K Jana
+ *  Organization : IIT Khatagpur
+ *  
+  !-->
+<!DOCTYPE html >
+<html lang="en">
+    <head>        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Impulse Current Generator | IIT Kharagpur</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+        <link href="./css/ivg.css" rel="stylesheet" type="text/css" />
+
+        <script type="text/javascript" src="./lib/js/threejs/three.min.js"></script>
+        <script type="text/javascript" src="./lib/js/threejs/TrackballControls.js"></script>
+        <script type="text/javascript" src="./lib/js/threejs/Detector.js"></script>
+        <script type="text/javascript" src="./lib/js/threejs/stats.min.js"></script> 
+
+        <script type="text/javascript" src="./js/axis.js"></script>
+        <script type="text/javascript" src="./js/scene.js"></script>
+        <script type="text/javascript" src="./js/controller.js"></script>
+        <script type="text/javascript" src="./js/loader.js"></script>
+        <script  src="./js/ivg.js"></script>
+        <script type="text/javascript" src="https://rawgithub.com/louisremi/jquery-smartresize/master/jquery.throttledresize.js"></script>
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+        <script type="text/javascript" src="./js/jquery.js"></script>
+        <script type="text/javascript" src="./js/jquery-3.1.1.js"></script>
+        
+        
+        <script>
+            function openCity(evt, cityName) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " active";
+            }
+
+            var index = 0;
+
+            function loadCapacitor() {
+                document.getElementById("demo1").disabled = false;
+                document.getElementById("demo").disabled = true;
+                document.getElementById("demo3").disabled = true;
+                document.getElementById("C1").hidden =true ;
+                document.getElementById("Rt").hidden = false;
+                document.getElementById("Rf").hidden = true ;
+               document.getElementById("C1").hidden = true;
+                document.getElementById("demo1").value = 0.4;
+                document.getElementById("demo").value = 0.6;
+                document.getElementById("demo3").value = 0.6;
+                document.getElementById("C1").value = 0.6;
+                document.getElementById("Rf").value = 0.6;
+                document.getElementById("Rt").value = 0.4;
+                document.getElementById("graphTitle").innerHTML = "Cg";
+
+                index = 1;
+                document.getElementById("graphTitle1").innerHTML = document.getElementById("demo3").value;
+                restart();
+                $("#tab2, #tab3").addClass("disabled");
+
+            }
+
+            function frontResistor() {
+                document.getElementById("demo").disabled = false;
+                document.getElementById("demo1").disabled = true;
+                document.getElementById("demo3").disabled = true;
+                document.getElementById("Rt").hidden = true;
+                document.getElementById("Rf").hidden = false;
+                document.getElementById("C1").hidden = true;
+               document.getElementById("Cg").hidden = true;
+                document.getElementById("demo1").value = 0.4;
+                document.getElementById("demo").value = 0.6;
+                document.getElementById("demo3").value = 0.6;
+                document.getElementById("C1").value = 0.6;
+                document.getElementById("Rf").value = 0.6;
+                document.getElementById("Rt").value = 3;
+                document.getElementById("graphTitle").innerHTML = "Rf";
+                index = 2;
+
+                document.getElementById("graphTitle1").innerHTML = document.getElementById("demo").value;
+                restart();
+                $("#tab1, #tab3").addClass("disabled");
+            }
+
+            function tailResistor() {
+                document.getElementById("demo3").disabled = false;
+                document.getElementById("demo").disabled = true;
+                document.getElementById("demo1").disabled = true;
+                document.getElementById("C1").hidden = false;
+                document.getElementById("Rf").hidden = true;
+                document.getElementById("Rt").hidden = true;
+                document.getElementById("demo1").value = 0.4;
+                document.getElementById("demo").value = 0.6;
+                document.getElementById("demo3").value = 0.6;
+                document.getElementById("C1").value = 0.6;
+                document.getElementById("Rf").value = 0.6;
+                document.getElementById("Rt").value = 3;
+                index = 3;
+
+                document.getElementById("graphTitle").innerHTML = "Lf";
+                document.getElementById("graphTitle1").innerHTML = document.getElementById("demo1").value;
+                restart();
+                $("#tab1, #tab2").addClass("disabled");
+            }
+        </script>
+
+        
+
+    </head> 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NFWKNJWKPZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NFWKNJWKPZ');
+</script>   
+   <body onresize='document.getElementsByTagName("body")[0].style[ "font-size" ] = document.body.clientWidth*(5/100) + "%";'>
+        <a href="javascript:setUp()" id="shw"></a>
+
+        <div id="whole_body">  
+            <div id="title" > <b>PARAMETRIC ANALYSIS OF IMPULSE CURRENT GENERATOR WAVEFORM</b></div>
+            <div id="csg">
+                <div id="controller">
+                    <div  id="ctrl" >
+                        <div id="controller_title" ><b>CONTROLLER</b></div>
+                    </div>
+                    
+                     <div class="tab" id="tab">                   
+                        <a href="javascript:void(0)" class="tablinks" id="tab2" onclick="frontResistor()" hidden>R<sub>f</sub></a>
+                        <a href="javascript:void(0)" class="tablinks" id="tab1" onclick="loadCapacitor()" hidden>R<sub>1</sub></a>
+                        <a href="javascript:void(0)" class="tablinks" id="tab3" onclick="tailResistor()" hidden>L<sub>f</sub></a>
+                    </div>
+                    
+                    <div id="whole_controller">
+                        <div class="ctrl" id="voltage">
+                            <div class="parameters1" style="top:2px"><b>CHARGING VOLTAGE</b></div>
+                            <div class="parameters_value" style="top:50%">
+                                V<sub>o</sub> in kV:<input class="value" id="V0" max="100" min="0" step="1" value="50" oninput ="aaa4()" type="range" hidden/>
+                                <input id="demo4"  class="ip"  value = "50" type="text" disabled/>
+                            </div>
+                        </div>
+                        <div class="ctrl" id="capacitor">
+                            <div class="parameters2" style="top:2px"><b>CAPACITOR VALUES</b></div>
+                            <div class="parameters_value" style="top:45%">
+                                C<sub>g</sub> in &micro;F:<input class="value" id="Cg" max="40" min="0.1" step="0.1" value="3" oninput ="aaa2()" type="range" hidden/>
+                                <input id="demo2" class="ip"  size="2" value = "3" type="text" disabled/>
+                            </div>
+                            
+                        </div>
+                        <div class="ctrl" id="resistor">
+                            <div class="parameters3" ><b>RESISTOR VALUES</b></div>
+                            <div class="parameters_value" style="top:30%">
+                                R<sub>f</sub> in &#8486;&nbsp; :<input class="value" id="Rf"  max="2" min="0.1" step="0.01" value="0.6" oninput ="aaa()" type="range" hidden/>
+                                <input id="demo" class="ip"  value = "0.6" type="text" disabled/>
+                            </div>                                
+
+                            <div class="parameters_value" style="top:65%">
+                                R<sub>1</sub> in &#8486; &nbsp;:<input class="value" id="Rt" max="1" min="0.001" step="0.01" value="0.4" oninput ="aaa1()" type="range" hidden/>
+                                <input id="demo1" class="ip"   value = "0.4" type="text" disabled/>
+                            </div>
+                         <!--   <div class="parameters_value" style="top:70%">
+                                Value of Internal inductance L<sub>f</sub> & L<sub>t</sub> &NonBreakingSpace; are between 0.1 &micro;H to 1 &micro;H
+
+                            </div>  !-->
+                        </div>
+                        <div class="ctrl" id="time">
+                            <div class="parameters5" ><b>INDUCTOR VALUES</b></div>
+                            
+                            <div class="parameters_value" style="top:30%">
+                                L<sub>f</sub> in &#181;H:<input class="value" id="C1" max="5" min="0" step="0.01" value="0.6" oninput ="aaa3()" type="range" hidden/>
+                                <input id="demo3" class="ip"   value = "0.6" type="text" disabled/>
+                            </div>
+                            
+                            <div class="parameters_value" style="top:65%">
+                               L<sub>1</sub> in &micro H:<input class="value" id="d"  max="2" min="0" step="0.4" value="1" oninput ="aaa8()" type="range" hidden/>
+                               <input id="demo8" class="ip"  value = "0.4" type="text" disabled/> 
+                            </div>
+                        </div> 
+                        <div class="ctrl" id="bttn">
+                            <div id="bttn1"><input class="btn" id="buttn" type="button" value="Start Experiment" onclick="toggleButton()"></div>
+                            <div id="bttn2"><input class="btn" id="buttn1" type="button" value="Ground Switch" onclick="ground_switch()" disabled /></div>
+                            <div id="bttn3"><input class="btn" id="buttn2" type="button" value="Charge Capacitors" onclick="charge_capacitor()" disabled /></div>
+                            <div id="bttn4"><input class="btn" id="buttn3" type="button" value="Trigger Generator" onclick="trigger_generator()" disabled /></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="simulator">
+                    <div id="model_title"><b>SIMULATOR</b></div>
+                    <div class="dropdown">
+                        <div id="eqv_ckt"><b>EQUIVALENT CIRCUIT DIAGRAM</b></div>
+                        <div class="dropdown-content1" >
+                            <img src="images/ICG-CKT.jpg"  style="float:left;position: absolute; top:1%"/>
+                        </div>
+                    </div>
+                  <div class="dropdown">
+                        <div id="instruction"><b>INSTRUCTIONS</b></div>
+                        <div class="dropdown-content1" >
+                              <ol>
+
+                                <li>The objective of this experiment is to observe the variation in output
+                                    waveform by varying one parameter and keeping all the others constant.</li>
+
+                                <li>When the page loads the user is presented with three input parameter
+                                    buttons namely Generator Capacitance(Cg),Front Resistance(Rf),Front Inductance(Lf)
+                                    on left frame and a circuit representation of Impulse current generator on right frame.</li>                                  
+
+                                <li>One of the parameter buttons is clicked to continue the experiment for parametric analysis.</li>                                   
+
+                                <li>The user gets a display of non-editable parameters namely Charging voltage(VO),
+                                    Tail resistance(Rt),Load Inductance(Lt)
+                                    with default values and two editable parameters namely parameter button chosen(Cg,Rf,Lf)
+                                    with default values. </li>                                                                 
+
+                                <li>The editable parameters are changed by adjusting slider position. </li>                                
+
+                                <li>Then click on open ground switch to give supply to ICG and you can see it  in simulator</li>
+
+                                <li>The Charge Capacitor button is to be clicked to charge generator capacitors.Charging time of capacitor is displayed by bar on left corner of simulator </li>
+
+                                <li>The Trigger generator button is to be clicked to display the mechanism of ICG and the fact that Breakdown has occurred or not is displayed.</li>                                                                                             
+
+                                <li>After complete the process the respective graph will be shown.  
+                                    View the waveform carefully how waveform is changing with variation in parameters. And also different wave forms are generated for withstand and flashover.
+                                </li>
+
+                                <li>Mouse-hover on wave to see the variation of generated voltage with time. You can drag it or Zoom In/Zoom Out the wave form for detail study.</li>
+
+                                <li>Find out Front time and tail time from the wave from for each waveform and compare them (how to find out front time and tail time you have to see theory part).</li>
+
+                                <li>after finding front time and tail time you can compare the generated Impulse wave with standard switching impulse wave.</li>
+
+                                <!--  <li>The waveforms generated by performing the experiment for each parameter namely Tail
+                                      Capacitance(Cl),Front Resistance(Rf),Tail Resistance(Rt) and different input values for
+                                      other parameters can be compared using wave-form comparision button at the end of experiment. </li>  !-->
+                            </ol>
+                        </div>
+                    </div>  
+
+                    <div id="model">                    
+                         <div id="main-wrapper">
+            <div id="canvas3d-wrapper">            
+                <div id="canvas3d-view"></div>           
+            </div>
+        </div>     
+                        <div id="meter" hidden> 
+                            <progress id="charge-progress" value="2" max="100" style="float: left"></progress>                               
+                            <span id="charge-msg" ></span>
+                        </div>
+
+                    </div>
+                    <div id="graph" style="position: absolute">
+                        <div id="CHARACTERISTICS"><b>CHARACTERISTICS</b></div>
+                        <div id="dwnldGraph" class="dwnldGraph" >                                  
+                            </div>
+                        <div id="visualization_wrap">
+                            <div id="visualization"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="lisence">
+
+                Copyright &copy; 2011 Indian Institute of Technology Kharagpur, 
+                <a href="../license/index.html" target="_blank" style="margin:auto">Licensing Terms</a>
+                <div id="graphTitle" style="position: absolute;  top: 50%; width: 25%; height: 5%; display:none; " ></div>
+                <div id="graphTitle1" style="position: absolute; top: 50%;width: 25%; height: 5%; display:none;" ></div>
+            </div>
+        </div>
+    </body>
+</html>
