@@ -38,7 +38,7 @@
     },
     {
       "target": "simulation.html",
-      "source": "simulation/index.html",
+      "source": "simulation/parametric-analysis-of-impulse-current-generator-webgl-simulator.html",
       "label": "Simulation",
       "unit-type": "task",
       "content-type": "simulation"
