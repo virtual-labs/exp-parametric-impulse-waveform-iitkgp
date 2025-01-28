@@ -1,0 +1,3 @@
+## Introduction 
+
+Generation of impulse current waveforms of high magnitude (~100 kA) find application in test work as well as basic research on non-linear resistors, electric arc studies, and studies related to electric plasmas in high current discharges. Impulse current testing of surge arresters is done to test their ability to withstand lightning impulses. Rectangular impulse testing is done to assess their surge energy absorption ability. As lightning phenomena involves both high voltage impulses and high current impulses on transmission lines, proper measures need to be taken in advance to protect the power apparatus from high impulse currents. Here protective gear like surge arrestors come to our rescue as they can discharge the lightning currents without damage.
