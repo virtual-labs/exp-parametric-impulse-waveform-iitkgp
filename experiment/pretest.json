@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Type of spark-gaps preferred in impulse current generation are-",
+      "question": "1. Type of spark-gaps preferred in impulse current generation are-",
       "answers": {
         "a": "hollow spheres with surface coating",
         "b": "solid spheres or hemi-spheres",
@@ -14,7 +14,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Measurement of Impulse Current needs",
+      "question": "2. Measurement of Impulse Current needs",
       "answers": {
         "a": "a resistive shunt of few KOhm and a sensing device that should be capable of measuring the signal of small frequency band",
         "b": "a resistive shunt range from 10 micro Ohm to few m? and a sensing device that should be capable of measuring the signal of low frequency band",
