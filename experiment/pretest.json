@@ -2,36 +2,26 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. Type of spark-gaps preferred in impulse current generation are-",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "hollow spheres with surface coating",
+        "b": "solid spheres or hemi-spheres",
+        "c": "hollow spheres",
+        "d": "all of the above"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+      
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2. Measurement of Impulse Current needs",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "a resistive shunt of few KOhm and a sensing device that should be capable of measuring the signal of small frequency band",
+        "b": "a resistive shunt range from 10 micro Ohm to few m? and a sensing device that should be capable of measuring the signal of low frequency band",
+        "c": "a resistive shunt range from 10 micro Ohm to few m? and a sensing device that should be capable of measuring the signal over a high frequency band",
+        "d": "none of the above"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      
       "correctAnswer": "c",
       "difficulty": "beginner"
     }
